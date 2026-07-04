@@ -7,7 +7,17 @@
     "allow": [
       "Bash(git init *)",
       "Bash(git checkout *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(uv --version)",
+      "Bash(uvx --version)",
+      "Bash(brew --version)",
+      "Bash(terraform-mcp-server --help)",
+      "Bash(git -C /Users/gauravkarki/spring-petclinic/petclinic-platform status --porcelain terraform/)",
+      "Bash(chmod +x /Users/gauravkarki/spring-petclinic/petclinic-platform/scripts/bootstrap-state.sh)",
+      "Bash(bash -n /Users/gauravkarki/spring-petclinic/petclinic-platform/scripts/bootstrap-state.sh)",
+      "Bash(terraform fmt *)",
+      "Bash(terraform init *)",
+      "Bash(terraform validate *)"
     ]
   },
   "enabledMcpjsonServers": [

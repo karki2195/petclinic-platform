@@ -2,9 +2,9 @@
   "mcpServers": {
     "awslabs.terraform-mcp-server": {
       "type": "stdio",
-      "command": "uvx",
+      "command": "terraform-mcp-server",
       "args": [
-        "awslabs.terraform-mcp-server@latest"
+        "stdio"
       ],
       "env": {
         "FASTMCP_LOG_LEVEL": "ERROR"
